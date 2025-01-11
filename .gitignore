@@ -1,0 +1,11 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment
+#eski_env/
+
+# Ignore local settings
+#*.sqlite3
+#.env
