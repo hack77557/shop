@@ -4,8 +4,8 @@ __pycache__/
 *.pyo
 
 # Ignore environment
-#eski_env/
+eski_env/
 
 # Ignore local settings
-#*.sqlite3
-#.env
+*.sqlite3
+.env
