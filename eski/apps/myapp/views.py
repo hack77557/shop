@@ -17,3 +17,8 @@ def remove_from_cart(request, product_id):
 def cart_detail(request):
     cart = Cart(request)
     return render(request, 'cart/detail.html', {'cart': cart})
+
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("<h1>Welcome to the Django Shop!</h1>")
